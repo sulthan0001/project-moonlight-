@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moonlight</title>
+
+    <style>
+         * {
+            box-sizing:border-box;
+            border: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        
+        .head {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            background-color: black;
+            column-gap: 4%;
+           
+        }
+
+      
+        .buttons {
+            padding-top: 2%;
+            border-top: 10%;
+            justify-content: center;
+
+        }
+
+        .b {
+
+            border: none;
+            color: rgb(255, 255, 255);
+            background-color: black;
+            height: 7vh;
+            width: 19vh;
+            justify-content: center;
+            align-items: center;
+            border-radius: 2vh;
+            cursor: pointer;
+
+        }
+
+        .b:hover {
+            background-color: white;
+            color: black;
+        }
+
+        .middle{
+            height: 85vh;
+            width: 98.9vw;
+            display: flex;
+            z-index: -1;
+            position:absolute;
+            
+        }
+
+        .middle img{
+            width: 100%;
+            height: 100%;
+        }
+
+        /* .first{
+            height: 50%;
+            width: 80%;
+            background-color: black;
+            margin-left: -54%;
+            margin-top: 10%;
+          
+           
+        } */
+         .first{
+            display: flex;
+            position: absolute;
+            height: 90%;
+            width: 80%;
+            background-color: black;
+            top: 3%;
+            left: 10%;
+            opacity: 0.7;
+            
+         }
+
+         .first img{
+            height: 40%;
+            width: 20%;
+            margin-top: 13%;
+            margin-left: 15%;
+         }
+
+         .s h1{
+            color: white;
+        }
+
+        .s{
+            display: flex;
+            position: absolute;
+            margin-top: 11%;
+            margin-left: 37%;
+        }
+        hr{
+         color: 2px solid white;
+        }
+
+        .p{
+            display: flex;
+            position: absolute;
+            color: white;
+            margin-top: 19%;
+            margin-left: 37%;
+        }
+
+        .p1{
+            display: flex;
+            position: absolute;
+            color: white;
+            margin-top: 22%;
+            margin-left: 37%;
+        }    
+    .e{
+        display: flex;
+        position: absolute;
+      border:2px solid white;
+      height: 9%;
+      width: 12%;
+      color: white;
+      background-color: black;
+      margin-top: 27%;
+      margin-left: 40%;
+      cursor: pointer;
+      border-radius: 5%;
+      justify-content: center;
+      align-items: center;
+      
+    }
+
+    
+
+    .e1{
+        display: flex;
+        position: absolute;
+      background-color: white;
+      color: black;
+      height: 9%;
+      width: 12%;
+      margin-top: 27%;
+      margin-left: 55%;
+      border-radius: 5%;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .e button:hover{
+        background-color: white;
+        color: black;
+        
+        
+    }
+.footer {
+    display: flex;
+    background:black;
+    color: #fff;
+   justify-content: center;
+    padding:  0;
+    position: absolute;
+    bottom: 0;
+    width: 98.9%;
+}
+
+
+
+
+     </style>
+</head>
+<body>
+   <div class="moon">
+
+      <div class="head">
+        <img src="./images/logo.png" alt="logo" class="logo">
+        <div class="buttons">
+
+            <a href="./index.html"><button class="b">
+                    <h3>HOME<h1>
+                </button></a>
+
+            <a href="./about.html"><button class="b">
+                    <h3>ABOUT<h1>
+                </button></a>
+
+            <a href="./entries.html"><button class="b">
+                    <h3>ENTRIES<h1>
+                </button></a>
+
+            <a href="./work.html"><button class="b">
+                    <h3>WORK<h1>
+                </button></a>
+
+
+            <a href="./contact.html"><button class="b">
+                    <h3>CONTACT<h1>
+                </button></a>
+
+        </div>
+
+      
+
+      </div>
+
+      <div class="middle">
+       <img src="./images/first_bg.jpg" >
+
+        <div class="first">
+
+            <img src="./images/author_image.png">
+            <div class="s"><h1><u>MANGALA PAR </u></h1></div>
+            <div class="p">LOREM IPSUM <b>DOLOR SIT AMET</b>, CONSECTETUR ADIPISING ELIT. <b>SED VEHICULA</b></div>
+            <div class="p1"><b>BLANDIT AUGUE</b>, EU MAXIMUS ODIO TEMPUS VITAE.</div>
+            <button class="e"> READ MORE </button>
+            <button class="e1"> OUR FB PAGE</button>
+        </div>
+
+     
+      </div>
+
+
+      <div class="footer">
+        <footer>
+            <p> Copyright &copy; 2024 My Website</p>
+        </footer>
+      </div>
+
+     </div>
+      
+</body>
+</html>

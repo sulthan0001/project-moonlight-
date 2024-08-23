@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moonlight</title>
+
+    <style>
+         * {
+            box-sizing:border-box;
+            border: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        
+        .head {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            background-color: black;
+            column-gap: 4%;
+           
+        }
+
+      
+        .buttons {
+            padding-top: 2%;
+            border-top: 10%;
+            justify-content: center;
+
+        }
+
+        .b {
+
+            border: none;
+            color: rgb(255, 255, 255);
+            background-color: black;
+            height: 7vh;
+            width: 19vh;
+            justify-content: center;
+            align-items: center;
+            border-radius: 2vh;
+            cursor: pointer;
+
+        }
+
+        .b:hover {
+            background-color: white;
+            color: black;
+        }
+
+        .middle{
+            height: 85vh;
+            width: 98.9vw;
+            display: flex;
+            z-index: -1;
+            position: relative;
+            
+        }
+
+        .middle img{
+            width: 100%;
+            height: 100%;
+        }
+
+      
+         .first{
+            display: flex;
+            
+            position: absolute;
+            height: 90%;
+            width: 80%;
+            background-color: black;
+            top: 3%;
+            left: 10%;
+            opacity: 0.7;
+            
+         }
+         .first img{
+            position: absolute;
+            width: 50%;
+            float:right;
+         }
+
+         .sb{
+            color: white;
+            width: 100%;
+             margin-left: 52%;
+
+         }
+
+         .first .p1{
+            color: white;
+            position:absolute;
+            float: right;
+            width: 40%;
+            left: 52%;
+            top: 10%;
+            font-size: 15px;
+
+         }
+
+         .first .p1,.p2,.p3,.p4{
+            color: white;
+            position:absolute;
+            float: right;
+            width: 40%;
+            
+            font-size: 20px;
+
+         }
+
+         .p2{
+            left: 52%;
+            top: 25%;
+         }
+
+         .p3{
+            left: 52%;
+            top: 45%;
+         }
+
+         .p4{
+            left: 52%;
+            top: 60%;
+         }
+
+         
+
+         .e{
+        position: absolute;
+      border:2px solid white;
+      height: 9%;
+      width: 12%;
+      color: white;
+      background-color: black;
+      top: 80%;
+      left: 52%;
+      border-radius: 5%;
+      
+    }
+
+    .e:hover{
+      border: 3px solid white;
+    }
+
+
+
+.footer {
+    background:black;
+    color: #fff;
+    text-align: center;
+    padding:  0;
+    position: absolute;
+    bottom: 0;
+    width: 98.9%;
+}
+
+     </style>
+</head>
+<body>
+   <div class="moon">
+
+      <div class="head">
+        <img src="./images/logo.png" alt="logo" class="logo">
+        <div class="buttons">
+
+            <a href="./index.html"><button class="b">
+                    <h3>HOME<h1>
+                </button></a>
+
+            <a href="./about.html"><button class="b">
+                    <h3>ABOUT<h1>
+                </button></a>
+
+            <a href="./entries.html"><button class="b">
+                    <h3>ENTRIES<h1>
+                </button></a>
+
+            <a href="./work.html"><button class="b">
+                    <h3>WORK<h1>
+                </button></a>
+
+
+            <a href="./contact.html"><button class="b">
+                    <h3>CONTACT<h1>
+                </button></a>
+
+        </div>
+
+      
+
+      </div>
+
+      <div class="middle">
+       <img src="./images/second_bg.jpg" >
+
+        <div class="first">
+            <img src="./images/about_image.jpg">
+            
+            <div class="sb"><h1><u>ABOUT US </u></h1></div>
+               
+                <p class="p1"> Please tell your friends about templatemo website.
+                    A variety of free  CSS templates are avalilable for immediate downloads.</p>
+                   <p class="p2"> Phasellus vitae faucibus orci. Etiam eleifend orci sed faucibus semper.
+                    Cras varius dolor et augue fringilla, eu commodo sapaien iacullis. 
+                    Donec eget dictum tellus.</p>
+                   <p class="p3"> <u>Curabitur</u> a interdum diam. 
+                    Nulla vestibulum porttitor porta.
+                    Nulla vitae interdum libero, vel posuere ipsum. 
+                    Phasellus interdum estet dapibus tempus. </p>
+                 <p class="p4">vestibulum malesuada lorem condimentum mauris ornare dapibus. 
+                    Curabitur tempor liogula et placerat molestie
+                </p>
+
+                <button class="e"> READ MORE </button>
+
+                
+                
+
+                
+        </div>
+
+     
+      </div>
+
+
+      <div class="footer">
+        <footer>
+            <p> Copyright &copy; 2024 My Website</p>
+        </footer>
+      </div>
+
+     </div>
+      
+</body>
+</html>
